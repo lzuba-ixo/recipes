@@ -27,8 +27,10 @@
             <key>unattended_install</key>
             <true/>
 	    <key>category</key>
-    	    <key>installer_choices_xml</key>
+    	    <string>office</string>
+	    <key>installer_choices_xml</key>
     	    <array>
+		
 		<dict>
 			<key>attributeSetting</key>
 			<integer>1</integer>
@@ -117,12 +119,9 @@
 			<key>choiceIdentifier</key>
 			<string>com.microsoft.office.proofing</string>
 		</dict>
-    	    </array>
-	    <string>Office</string>
-        </dict>
+	</array>
+	</dict>
     </dict>
-    <key>MinimumVersion</key>
-    <string>0.5.0</string>
     <key>ParentRecipe</key>
     <string>com.github.rtrouton.download.MicrosoftOffice365Suite</string>
     <key>Process</key>
